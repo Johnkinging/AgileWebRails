@@ -62,4 +62,6 @@ Rails.application.configure do
 
   # Disable CSFR protection across network in development
   config.action_cable.disable_request_forgery_protection = true
+
+  config.action_mailer.delivery_method = :test
 end
